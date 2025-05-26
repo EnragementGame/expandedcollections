@@ -21,7 +21,7 @@ public class ItemRegister {
             () -> new Item(new Item.Properties().jukeboxPlayable(SoundRegister.MUSIC_DISC_WOLF_KEY).stacksTo(1).rarity(Rarity.RARE)));
 
     public static final DeferredItem<Item> CROAK_BANNER_PATTERN = ITEMS.register("croak_banner_pattern",
-            () -> new BannerPatternItem(ExpandedTags.BannerPatterns.CROAK, new Item.Properties().stacksTo(1)));
+            () -> new BannerPatternItem(ExpandedTags.BannerPatterns.PATTERN_ITEM_CROAK, new Item.Properties().stacksTo(1)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

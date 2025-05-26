@@ -6,6 +6,7 @@ import com.enragementgame.expandedcollections.util.ExpandedTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
+import net.minecraft.tags.BannerPatternTags;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Block;
@@ -45,5 +46,7 @@ public class ExpandedItemTagProvider extends ItemTagsProvider {
 
         this.tag(ItemTags.TRIM_TEMPLATES)
                 .add(ItemRegister.GUARD_ARMOR_TRIM_SMITHING_TEMPLATE.get());
+
+
     }
 }

@@ -30,7 +30,7 @@ public class ExpandedTags {
     }
 
     public static class BannerPatterns {
-        public static final TagKey<BannerPattern> CROAK = createTag("croak");
+        public static final TagKey<BannerPattern> PATTERN_ITEM_CROAK = createTag("pattern_item/croak");
 
         private static TagKey<BannerPattern> createTag(String name) {
             return TagKey.create(Registries.BANNER_PATTERN, ResourceLocation.fromNamespaceAndPath(ExpandedCollections.MODID, name));

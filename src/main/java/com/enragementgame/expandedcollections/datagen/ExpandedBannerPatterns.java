@@ -17,6 +17,8 @@ public class ExpandedBannerPatterns {
     }
 
     private static void register(BootstrapContext<BannerPattern> context, String name, ResourceKey<BannerPattern> key) {
-        BannerPattern bannerPattern = new BannerPattern(ResourceLocation.fromNamespaceAndPath(ExpandedCollections.MODID, name), Util.makeDescriptionId("block", key.location()));
+        BannerPattern bannerPattern = new BannerPattern(ResourceLocation.fromNamespaceAndPath(ExpandedCollections.MODID, name),
+                Util.makeDescriptionId("block.minecraft.banner", key.location()));
+        context.register(key, bannerPattern);
     }
 }
