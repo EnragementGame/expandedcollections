@@ -1,0 +1,10 @@
+{
+  "music_disc_wolf": {
+    "sounds": [
+      {
+        "name": "expandedcollections:records/music_disc_wolf",
+        "stream": true
+      }
+    ]
+  }
+}

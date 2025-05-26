@@ -1,0 +1,10 @@
+{
+  "comparator_output": 12,
+  "description": {
+    "translate": "item.expandedcollections.music_disc_wolf.desc"
+  },
+  "length_in_seconds": 173.0,
+  "sound_event": {
+    "sound_id": "expandedcollections:music_disc_wolf"
+  }
+}

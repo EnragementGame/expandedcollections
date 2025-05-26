@@ -1,0 +1,12 @@
+{
+  "itemGroup.expandedcollections": "Example Mod Tab",
+  "block.expandedcollections.example_block": "Example Block",
+  "item.expandedcollections.guard_armor_trim_smithing_template": "Smithing Template",
+  "item.expandedcollections.guard_armor_trim_smithing_template.new": "Guard Armor Trim",
+  "item.expandedcollections.music_disc_wolf": "Music Disc",
+  "item.expandedcollections.music_disc_wolf.desc": "DogmaJJE - Wolf",
+
+  "entity.minecraft.villager.expandedcollections.musician": "Musician",
+
+  "trim_pattern.expandedcollections.guard": "Guard Armor Trim"
+}

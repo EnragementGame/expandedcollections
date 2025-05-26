@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "expandedcollections:musician_poi",
+      "required": false
+    }
+  ]
+}

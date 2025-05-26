@@ -1,0 +1,8 @@
+{
+  "asset_id": "expandedcollections:guard",
+  "decal": false,
+  "description": {
+    "translate": "trim_pattern.expandedcollections.guard"
+  },
+  "template_item": "expandedcollections:guard_armor_trim_smithing_template"
+}
