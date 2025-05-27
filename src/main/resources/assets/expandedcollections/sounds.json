@@ -6,5 +6,13 @@
         "stream": true
       }
     ]
+  },
+  "music_disc_creeper_song": {
+    "sounds": [
+      {
+        "name": "expandedcollections:records/placeholder",
+        "stream": true
+      }
+    ]
   }
 }

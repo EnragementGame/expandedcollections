@@ -32,6 +32,7 @@ public class ExpandedTags {
     public static class BannerPatterns {
         public static final TagKey<BannerPattern> PATTERN_ITEM_CROAK = createTag("pattern_item/croak");
         public static final TagKey<BannerPattern> PATTERN_ITEM_EARS = createTag("pattern_item/ears");
+        public static final TagKey<BannerPattern> PATTERN_ITEM_RIVETS = createTag("pattern_item/rivets");
 
         private static TagKey<BannerPattern> createTag(String name) {
             return TagKey.create(Registries.BANNER_PATTERN, ResourceLocation.fromNamespaceAndPath(ExpandedCollections.MODID, name));

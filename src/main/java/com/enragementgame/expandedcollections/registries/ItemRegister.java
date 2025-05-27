@@ -19,11 +19,15 @@ public class ItemRegister {
 
     public static final DeferredItem<Item> MUSIC_DISC_WOLF = ITEMS.register("music_disc_wolf",
             () -> new Item(new Item.Properties().jukeboxPlayable(SoundRegister.MUSIC_DISC_WOLF_KEY).stacksTo(1).rarity(Rarity.RARE)));
+    public static final DeferredItem<Item> MUSIC_DISC_CREEPER_SONG = ITEMS.register("music_disc_creeper_song",
+            () -> new Item(new Item.Properties().jukeboxPlayable(SoundRegister.MUSIC_DISC_CREEPER_SONG_KEY).stacksTo(1).rarity(Rarity.RARE)));
 
     public static final DeferredItem<BannerPatternItem> CROAK_BANNER_PATTERN = ITEMS.register("croak_banner_pattern",
-            () -> new BannerPatternItem(ExpandedTags.BannerPatterns.PATTERN_ITEM_CROAK, new Item.Properties().stacksTo(1)));
+            () -> new BannerPatternItem(ExpandedTags.BannerPatterns.PATTERN_ITEM_CROAK, new Item.Properties().stacksTo(1).rarity(Rarity.RARE)));
     public static final DeferredItem<BannerPatternItem> EARS_BANNER_PATTERN = ITEMS.register("ears_banner_pattern",
-            () -> new BannerPatternItem(ExpandedTags.BannerPatterns.PATTERN_ITEM_EARS, new Item.Properties().stacksTo(1)));
+            () -> new BannerPatternItem(ExpandedTags.BannerPatterns.PATTERN_ITEM_EARS, new Item.Properties().stacksTo(1).rarity(Rarity.EPIC)));
+    public static final DeferredItem<BannerPatternItem> RIVETS_BANNER_PATTERN = ITEMS.register("rivets_banner_pattern",
+            () -> new BannerPatternItem(ExpandedTags.BannerPatterns.PATTERN_ITEM_RIVETS, new Item.Properties().stacksTo(1).rarity(Rarity.RARE)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

@@ -23,14 +23,17 @@ import java.util.function.Supplier;
 public class ExpandedJukeboxSongs {
     public static final ResourceKey<JukeboxSong> MUSIC_DISC_WOLF = ResourceKey.create(Registries.JUKEBOX_SONG,
             ResourceLocation.fromNamespaceAndPath(ExpandedCollections.MODID, "music_disc_wolf"));
+    public static final ResourceKey<JukeboxSong> MUSIC_DISC_CREEPER_SONG = ResourceKey.create(Registries.JUKEBOX_SONG,
+            ResourceLocation.fromNamespaceAndPath(ExpandedCollections.MODID, "music_disc_creeper_song"));
 
     public static void bootstrap(BootstrapContext<JukeboxSong> context) {
-        register(context, MUSIC_DISC_WOLF, SoundRegister.MUSIC_DISC_WOLF);
+        register(context, MUSIC_DISC_WOLF, SoundRegister.MUSIC_DISC_WOLF, 173f,12);
+        register(context, MUSIC_DISC_CREEPER_SONG, SoundRegister.MUSIC_DISC_CREEPER_SONG,20f,2);
     }
 
-    private static void register(BootstrapContext<JukeboxSong> context, ResourceKey<JukeboxSong> key, Holder<SoundEvent> soundRegister) {
+    private static void register(BootstrapContext<JukeboxSong> context, ResourceKey<JukeboxSong> key, Holder<SoundEvent> soundRegister, float length, int output) {
         JukeboxSong jukeboxSong = new JukeboxSong(soundRegister,
-                Component.translatable(Util.makeDescriptionId("jukebox_song", key.location())), 173f, 12);
+                Component.translatable(Util.makeDescriptionId("jukebox_song", key.location())), length, output);
         context.register(key, jukeboxSong);
     }
 }

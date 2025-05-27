@@ -15,5 +15,9 @@ public class ExpandedItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
         basicItem(ItemRegister.GUARD_ARMOR_TRIM_SMITHING_TEMPLATE.get());
         basicItem(ItemRegister.MUSIC_DISC_WOLF.get());
+        basicItem(ItemRegister.MUSIC_DISC_CREEPER_SONG.get());
+        basicItem(ItemRegister.CROAK_BANNER_PATTERN.get());
+        basicItem(ItemRegister.EARS_BANNER_PATTERN.get());
+        basicItem(ItemRegister.RIVETS_BANNER_PATTERN.get());
     }
 }

@@ -20,13 +20,14 @@ public class ExtendedDataGenerator {
         PackOutput packOutput = generator.getPackOutput();
         ExistingFileHelper existingFileHelper = event.getExistingFileHelper();
         CompletableFuture<HolderLookup.Provider> lookupProvider = event.getLookupProvider();
+        ExpandedDatapackProvider datapackProvider = new ExpandedDatapackProvider(packOutput, lookupProvider);
 
         generator.addProvider(event.includeServer(), new ExpandedRecipeProvider(packOutput, lookupProvider));
 
         BlockTagsProvider blockTagsProvider = new ExpandedBlockTagProvider(packOutput, lookupProvider, existingFileHelper);
         generator.addProvider(event.includeServer(), blockTagsProvider);
         generator.addProvider(event.includeServer(), new ExpandedItemTagProvider(packOutput, lookupProvider, blockTagsProvider.contentsGetter(), existingFileHelper));
-        //generator.addProvider(event.includeServer(), new ExpandedBannerTagProvider(packOutput, lookupProvider, existingFileHelper));
+        generator.addProvider(event.includeServer(), new ExpandedBannerTagProvider(packOutput, datapackProvider.getRegistryProvider(), existingFileHelper));
 
         generator.addProvider(event.includeClient(), new ExpandedItemModelProvider(packOutput,existingFileHelper));
 

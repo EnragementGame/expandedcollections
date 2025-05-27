@@ -22,6 +22,9 @@ public class SoundRegister {
 
     public static final DeferredHolder<SoundEvent, SoundEvent> MUSIC_DISC_WOLF = registerSoundEvent("music_disc_wolf");
     public static final ResourceKey<JukeboxSong> MUSIC_DISC_WOLF_KEY = createSong("music_disc_wolf");
+    public static final DeferredHolder<SoundEvent, SoundEvent> MUSIC_DISC_CREEPER_SONG = registerSoundEvent("music_disc_creeper_song");
+    public static final ResourceKey<JukeboxSong> MUSIC_DISC_CREEPER_SONG_KEY = createSong("music_disc_creeper_song");
+
 
     private static DeferredHolder<SoundEvent, SoundEvent> registerSoundEvent(String name) {
         ResourceLocation id = ResourceLocation.fromNamespaceAndPath(ExpandedCollections.MODID, name);

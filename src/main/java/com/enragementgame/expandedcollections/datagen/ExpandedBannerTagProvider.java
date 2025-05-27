@@ -21,5 +21,9 @@ public class ExpandedBannerTagProvider extends BannerPatternTagsProvider {
     protected void addTags(HolderLookup.Provider provider) {
         this.tag(ExpandedTags.BannerPatterns.PATTERN_ITEM_CROAK)
                 .add(ExpandedBannerPatterns.CROAK);
+        this.tag(ExpandedTags.BannerPatterns.PATTERN_ITEM_EARS)
+                .add(ExpandedBannerPatterns.EARS);
+        this.tag(ExpandedTags.BannerPatterns.PATTERN_ITEM_RIVETS)
+                .add(ExpandedBannerPatterns.RIVETS);
     }
 }

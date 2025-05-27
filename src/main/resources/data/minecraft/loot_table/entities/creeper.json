@@ -45,7 +45,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:music_disc_cat"
+          "name": "expandedcollections:music_disc_creeper_song"
         }
       ],
       "rolls": 1

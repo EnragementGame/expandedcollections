@@ -42,7 +42,8 @@ public class ExpandedItemTagProvider extends ItemTagsProvider {
                 .add(Items.MUSIC_DISC_RELIC)
                 .add(Items.MUSIC_DISC_CREATOR)
                 .add(Items.MUSIC_DISC_CREATOR_MUSIC_BOX)
-                .add(Items.MUSIC_DISC_PRECIPICE);
+                .add(Items.MUSIC_DISC_PRECIPICE)
+                .add(ItemRegister.MUSIC_DISC_CREEPER_SONG.get());
 
         this.tag(ItemTags.TRIM_TEMPLATES)
                 .add(ItemRegister.GUARD_ARMOR_TRIM_SMITHING_TEMPLATE.get());
