@@ -21,6 +21,8 @@ public class ItemRegister {
             () -> new Item(new Item.Properties().jukeboxPlayable(SoundRegister.MUSIC_DISC_WOLF_KEY).stacksTo(1).rarity(Rarity.RARE)));
     public static final DeferredItem<Item> MUSIC_DISC_CREEPER_SONG = ITEMS.register("music_disc_creeper_song",
             () -> new Item(new Item.Properties().jukeboxPlayable(SoundRegister.MUSIC_DISC_CREEPER_SONG_KEY).stacksTo(1).rarity(Rarity.RARE)));
+    public static final DeferredItem<Item> MUSIC_DISC_REDSTONE_PARADISE = ITEMS.register("music_disc_redstone_paradise",
+            () -> new Item(new Item.Properties().jukeboxPlayable(SoundRegister.MUSIC_DISC_REDSTONE_PARADISE_KEY).stacksTo(1).rarity(Rarity.RARE)));
 
     public static final DeferredItem<BannerPatternItem> CROAK_BANNER_PATTERN = ITEMS.register("croak_banner_pattern",
             () -> new BannerPatternItem(ExpandedTags.BannerPatterns.PATTERN_ITEM_CROAK, new Item.Properties().stacksTo(1).rarity(Rarity.RARE)));

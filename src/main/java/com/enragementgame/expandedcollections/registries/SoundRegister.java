@@ -24,6 +24,8 @@ public class SoundRegister {
     public static final ResourceKey<JukeboxSong> MUSIC_DISC_WOLF_KEY = createSong("music_disc_wolf");
     public static final DeferredHolder<SoundEvent, SoundEvent> MUSIC_DISC_CREEPER_SONG = registerSoundEvent("music_disc_creeper_song");
     public static final ResourceKey<JukeboxSong> MUSIC_DISC_CREEPER_SONG_KEY = createSong("music_disc_creeper_song");
+    public static final DeferredHolder<SoundEvent, SoundEvent> MUSIC_DISC_REDSTONE_PARADISE = registerSoundEvent("music_disc_redstone_paradise");
+    public static final ResourceKey<JukeboxSong> MUSIC_DISC_REDSTONE_PARADISE_KEY = createSong("music_disc_redstone_paradise");
 
 
     private static DeferredHolder<SoundEvent, SoundEvent> registerSoundEvent(String name) {

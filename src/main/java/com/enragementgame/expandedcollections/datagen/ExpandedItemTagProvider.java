@@ -43,7 +43,13 @@ public class ExpandedItemTagProvider extends ItemTagsProvider {
                 .add(Items.MUSIC_DISC_CREATOR)
                 .add(Items.MUSIC_DISC_CREATOR_MUSIC_BOX)
                 .add(Items.MUSIC_DISC_PRECIPICE)
-                .add(ItemRegister.MUSIC_DISC_CREEPER_SONG.get());
+                .add(ItemRegister.MUSIC_DISC_CREEPER_SONG.get())
+                .add(ItemRegister.MUSIC_DISC_REDSTONE_PARADISE.get());
+
+        this.tag(ExpandedTags.Items.FROGLIGHTS)
+                .add(Items.OCHRE_FROGLIGHT)
+                .add(Items.PEARLESCENT_FROGLIGHT)
+                .add(Items.VERDANT_FROGLIGHT);
 
         this.tag(ItemTags.TRIM_TEMPLATES)
                 .add(ItemRegister.GUARD_ARMOR_TRIM_SMITHING_TEMPLATE.get());

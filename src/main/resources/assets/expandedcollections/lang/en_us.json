@@ -1,7 +1,6 @@
 {
-  "itemGroup.expandedcollections": "Example Mod Tab",
+  "itemGroup.expandedcollections": "Expanded Collections",
 
-  "block.expandedcollections.example_block": "Example Block",
 
   "block.minecraft.banner.expandedcollections.croak.black": "Black Croak",
   "block.minecraft.banner.expandedcollections.croak.white": "White Croak",
@@ -20,6 +19,23 @@
   "block.minecraft.banner.expandedcollections.croak.light_blue": "Light Blue Croak",
   "block.minecraft.banner.expandedcollections.croak.cyan": "Cyan Croak",
 
+  "block.minecraft.banner.expandedcollections.ears.black": "Black Ears",
+  "block.minecraft.banner.expandedcollections.ears.white": "White Ears",
+  "block.minecraft.banner.expandedcollections.ears.gray": "Gray Ears",
+  "block.minecraft.banner.expandedcollections.ears.light_gray": "Light Gray Ears",
+  "block.minecraft.banner.expandedcollections.ears.yellow": "Yellow Ears",
+  "block.minecraft.banner.expandedcollections.ears.green": "Green Ears",
+  "block.minecraft.banner.expandedcollections.ears.lime": "Lime Ears",
+  "block.minecraft.banner.expandedcollections.ears.red": "Red Ears",
+  "block.minecraft.banner.expandedcollections.ears.pink": "Pink Ears",
+  "block.minecraft.banner.expandedcollections.ears.orange": "Orange Ears",
+  "block.minecraft.banner.expandedcollections.ears.magenta": "Magenta Ears",
+  "block.minecraft.banner.expandedcollections.ears.purple": "Purple Ears",
+  "block.minecraft.banner.expandedcollections.ears.brown": "Brown Ears",
+  "block.minecraft.banner.expandedcollections.ears.blue": "Blue Ears",
+  "block.minecraft.banner.expandedcollections.ears.light_blue": "Light Blue Ears",
+  "block.minecraft.banner.expandedcollections.ears.cyan": "Cyan Ears",
+
   "block.minecraft.banner.expandedcollections.rivets.black": "Black Rivets",
   "block.minecraft.banner.expandedcollections.rivets.white": "White Rivets",
   "block.minecraft.banner.expandedcollections.rivets.gray": "Gray Rivets",
@@ -37,12 +53,17 @@
   "block.minecraft.banner.expandedcollections.rivets.light_blue": "Light Blue Rivets",
   "block.minecraft.banner.expandedcollections.rivets.cyan": "Cyan Rivets",
 
+
   "item.expandedcollections.guard_armor_trim_smithing_template": "Smithing Template",
   "item.expandedcollections.guard_armor_trim_smithing_template.new": "Guard Armor Trim",
+
   "item.expandedcollections.music_disc_wolf": "Music Disc",
   "item.expandedcollections.music_disc_wolf.desc": "DogmaJJE - Wolf",
   "item.expandedcollections.music_disc_creeper_song": "Music Disc",
   "item.expandedcollections.music_disc_creeper_song.desc": "WIP - No current song :(",
+  "item.expandedcollections.music_disc_redstone_paradise": "Music Disc",
+  "item.expandedcollections.music_disc_redstone_paradise.desc": "Noam Levy - Redstone Paradise",
+
   "item.expandedcollections.croak_banner_pattern": "Banner Pattern",
   "item.expandedcollections.croak_banner_pattern.desc": "Croak",
   "item.expandedcollections.ears_banner_pattern": "Banner Pattern",
@@ -50,11 +71,13 @@
   "item.expandedcollections.rivets_banner_pattern": "Banner Pattern",
   "item.expandedcollections.rivets_banner_pattern.desc": "Rivets",
 
+
   "entity.minecraft.villager.expandedcollections.musician": "Musician",
+
 
   "jukebox_song.expandedcollections.music_disc_wolf": "DogmaJJE - Wolf",
   "jukebox_song.expandedcollections.music_disc_creeper_song": "WIP - No current song :(",
-
+  "jukebox_song.expandedcollections.music_disc_redstone_paradise": "Noam Levy - Redstone Paradise",
 
   "trim_pattern.expandedcollections.guard": "Guard Armor Trim"
 }

@@ -25,7 +25,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:music_disc_otherside",
+          "name": "expandedcollections:music_disc_redstone_paradise",
           "weight": 2
         },
         {

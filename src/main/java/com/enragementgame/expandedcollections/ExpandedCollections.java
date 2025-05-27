@@ -74,7 +74,15 @@ public class ExpandedCollections
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ItemRegister.GUARD_ARMOR_TRIM_SMITHING_TEMPLATE);
+            event.accept(ItemRegister.GUARD_ARMOR_TRIM_SMITHING_TEMPLATE.get());
+            event.accept(ItemRegister.CROAK_BANNER_PATTERN.get());
+            event.accept(ItemRegister.EARS_BANNER_PATTERN.get());
+            event.accept(ItemRegister.RIVETS_BANNER_PATTERN.get());
+        }
+        if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ItemRegister.MUSIC_DISC_WOLF.get());
+            event.accept(ItemRegister.MUSIC_DISC_CREEPER_SONG.get());
+            event.accept(ItemRegister.MUSIC_DISC_REDSTONE_PARADISE.get());
         }
     }
 

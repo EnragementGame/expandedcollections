@@ -14,5 +14,37 @@
         "stream": true
       }
     ]
+  },
+  "music_disc_villager_song": {
+    "sounds": [
+      {
+        "name": "expandedcollections:records/placeholder",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_geode_song": {
+    "sounds": [
+      {
+        "name": "expandedcollections:records/placeholder",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_wandering_trader": {
+    "sounds": [
+      {
+        "name": "expandedcollections:records/placeholder",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_redstone_paradise": {
+    "sounds": [
+      {
+        "name": "expandedcollections:records/redstone_paradise",
+        "stream": true
+      }
+    ]
   }
 }

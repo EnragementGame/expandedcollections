@@ -1,4 +1,5 @@
-// 1.21.1	2025-05-27T13:10:40.5123662	Tags for minecraft:item mod id expandedcollections
+// 1.21.1	2025-05-27T16:28:41.7389424	Tags for minecraft:item mod id expandedcollections
+0d91c860420e5c6d47e16f6376dad63806657b0b data/expandedcollections/tags/item/froglights.json
 a9a162ecba6432de468b9dd18b46e856bf068c6d data/expandedcollections/tags/item/trade_disc.json
-26fed9deb648d439bf4c75f11f1fc28ef2724b0e data/expandedcollections/tags/item/treasure_disc.json
+f17b90db9e183f286e9f0fbb6b9a5f5c165ac27f data/expandedcollections/tags/item/treasure_disc.json
 4ae3ed021dff08c640bcb39a4d36909dea4477fe data/minecraft/tags/item/trim_templates.json

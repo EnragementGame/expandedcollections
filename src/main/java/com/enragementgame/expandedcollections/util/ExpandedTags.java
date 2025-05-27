@@ -22,7 +22,7 @@ public class ExpandedTags {
     public static class Items {
         public static final TagKey<Item> TRADE_DISC = createTag("trade_disc");
         public static final TagKey<Item> TREASURE_DISC = createTag("treasure_disc");
-
+        public static final TagKey<Item> FROGLIGHTS = createTag("froglights");
 
         private static TagKey<Item> createTag(String name) {
             return ItemTags.create(ResourceLocation.fromNamespaceAndPath(ExpandedCollections.MODID, name));
