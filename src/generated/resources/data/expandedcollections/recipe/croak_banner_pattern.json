@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:ochre_froglight"
+    },
+    {
+      "item": "minecraft:pearlescent_froglight"
+    },
+    {
+      "item": "minecraft:verdant_froglight"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "expandedcollections:croak_banner_pattern"
+  }
+}

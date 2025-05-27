@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "I": {
+      "item": "minecraft:iron_block"
+    },
+    "T": {
+      "item": "expandedcollections:guard_armor_trim_smithing_template"
+    }
+  },
+  "pattern": [
+    "DTD",
+    "DID",
+    "DDD"
+  ],
+  "result": {
+    "count": 2,
+    "id": "expandedcollections:guard_armor_trim_smithing_template"
+  }
+}
