@@ -1,0 +1,8 @@
+{
+  "comparator_output": 12,
+  "description": {
+    "translate": "jukebox_song.expandedcollections.music_disc_wolf"
+  },
+  "length_in_seconds": 173.0,
+  "sound_event": "expandedcollections:music_disc_wolf"
+}
