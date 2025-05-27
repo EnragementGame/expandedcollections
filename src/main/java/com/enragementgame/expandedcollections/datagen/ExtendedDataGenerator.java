@@ -26,7 +26,7 @@ public class ExtendedDataGenerator {
         BlockTagsProvider blockTagsProvider = new ExpandedBlockTagProvider(packOutput, lookupProvider, existingFileHelper);
         generator.addProvider(event.includeServer(), blockTagsProvider);
         generator.addProvider(event.includeServer(), new ExpandedItemTagProvider(packOutput, lookupProvider, blockTagsProvider.contentsGetter(), existingFileHelper));
-        generator.addProvider(event.includeServer(), new ExpandedBannerTagProvider(packOutput, lookupProvider, existingFileHelper));
+        //generator.addProvider(event.includeServer(), new ExpandedBannerTagProvider(packOutput, lookupProvider, existingFileHelper));
 
         generator.addProvider(event.includeClient(), new ExpandedItemModelProvider(packOutput,existingFileHelper));
 

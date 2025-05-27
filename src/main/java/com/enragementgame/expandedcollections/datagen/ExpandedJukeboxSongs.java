@@ -28,9 +28,9 @@ public class ExpandedJukeboxSongs {
         register(context, MUSIC_DISC_WOLF, SoundRegister.MUSIC_DISC_WOLF);
     }
 
-    private static void register(BootstrapContext<JukeboxSong> context, ResourceKey<JukeboxSong> key, Supplier soundSupplier) {
-        JukeboxSong jukeboxSong = new JukeboxSong((Holder<SoundEvent>) soundSupplier,
-                Component.translatable(Util.makeDescriptionId("item", key.registry())), 173f, 12);
+    private static void register(BootstrapContext<JukeboxSong> context, ResourceKey<JukeboxSong> key, Holder<SoundEvent> soundRegister) {
+        JukeboxSong jukeboxSong = new JukeboxSong(soundRegister,
+                Component.translatable(Util.makeDescriptionId("jukebox_song", key.location())), 173f, 12);
         context.register(key, jukeboxSong);
     }
 }

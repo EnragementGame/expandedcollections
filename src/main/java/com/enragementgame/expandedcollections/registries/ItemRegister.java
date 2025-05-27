@@ -20,8 +20,10 @@ public class ItemRegister {
     public static final DeferredItem<Item> MUSIC_DISC_WOLF = ITEMS.register("music_disc_wolf",
             () -> new Item(new Item.Properties().jukeboxPlayable(SoundRegister.MUSIC_DISC_WOLF_KEY).stacksTo(1).rarity(Rarity.RARE)));
 
-    public static final DeferredItem<Item> CROAK_BANNER_PATTERN = ITEMS.register("croak_banner_pattern",
+    public static final DeferredItem<BannerPatternItem> CROAK_BANNER_PATTERN = ITEMS.register("croak_banner_pattern",
             () -> new BannerPatternItem(ExpandedTags.BannerPatterns.PATTERN_ITEM_CROAK, new Item.Properties().stacksTo(1)));
+    public static final DeferredItem<BannerPatternItem> EARS_BANNER_PATTERN = ITEMS.register("ears_banner_pattern",
+            () -> new BannerPatternItem(ExpandedTags.BannerPatterns.PATTERN_ITEM_EARS, new Item.Properties().stacksTo(1)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

@@ -11,9 +11,12 @@ import net.minecraft.world.level.block.entity.BannerPattern;
 public class ExpandedBannerPatterns {
     public static final ResourceKey<BannerPattern> CROAK = ResourceKey.create(Registries.BANNER_PATTERN,
             ResourceLocation.fromNamespaceAndPath(ExpandedCollections.MODID, "croak"));
+    public static final ResourceKey<BannerPattern> EARS = ResourceKey.create(Registries.BANNER_PATTERN,
+            ResourceLocation.fromNamespaceAndPath(ExpandedCollections.MODID, "ears"));
 
     public static void bootstrap(BootstrapContext<BannerPattern> context) {
         register(context, "croak" ,CROAK);
+        register(context, "ears" ,EARS);
     }
 
     private static void register(BootstrapContext<BannerPattern> context, String name, ResourceKey<BannerPattern> key) {
